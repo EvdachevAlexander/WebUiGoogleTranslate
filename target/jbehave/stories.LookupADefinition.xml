@@ -1,0 +1,7 @@
+<story path="stories/LookupADefinition.story" title="">
+<scenario keyword="Scenario:" title="search for horse in Google Translate">
+<step outcome="successful">Given the user is on the Google translate homepage</step>
+<step outcome="successful">When the user enter up the definition of the word &apos;horse&apos;</step>
+<step outcome="successful">Then he should see the word &apos;horse&apos;</step>
+</scenario>
+</story>
